@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#homescreen {
+    max-width:100%;
+    min-height:100%;
+}
+
+#BCicon {
+    margin-left: 15px;
+}
+
+.toppage {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgb(115, 100, 46);
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#HomeTitle {
+    font-size: 5.0em;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 10;
+    margin: 0;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+.navlink > a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 2.3em;
+    text-decoration: none;
+    border-left: 3px solid black;
+  }
+  
+.navlink > a:hover {
+    background-color: rgb(235, 233, 188);
+  }
+  
