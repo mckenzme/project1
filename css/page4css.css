@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 232, 168);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(255, 232, 168);
+    margin: 0px;
+}
+
+.Menu {
+    display: flex;
+    background-color: white;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+}
+
+.foodname {
+    margin-bottom: 1px;
+}
+
+.description {
+    font-size: 0.8em;
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.2em;
+}
+
+.toppage {
+    display: flex;
+    flex-direction: row;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgb(92, 74, 22);
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#HomeTitle {
+    font-size: 3.0em;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 10;
+    margin: 0;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+.navlink > a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-left: 3px solid black;
+  }
+  
+.navlink > a:hover {
+    background-color: rgb(235, 233, 188);
+  }

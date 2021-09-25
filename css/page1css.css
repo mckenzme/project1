@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 232, 168)
+    
+    
+}
+
+.allpackages {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+.package {
+    padding: 1vh;
+    background-color: white;
+}
+
+.text {
+    background-color: white;
+    width: 70vh;
+    padding: 1vh;
+
+}
+
+.packagehead {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.element {
+    font-size: 1.1em;
+}
+
+.sectionhead {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+#BCicon {
+    margin-left: 15px;
+}
+
+.toppage {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgb(115, 100, 46);
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#HomeTitle {
+    font-size: 3.0em;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 10;
+    margin: 0;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+.navlink > a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-left: 3px solid black;
+  }
+  
+.navlink > a:hover {
+    background-color: rgb(235, 233, 188);
+  }
