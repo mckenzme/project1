@@ -1,49 +1,45 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(255, 232, 168);
+    background-color: rgb(121, 147, 196);
 }
 
 .container {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: rgb(255, 232, 168);
-    margin: 0px;
-}
-
-.Menu {
-    display: flex;
-    background-color: white;
-    margin-left: 40vh;
-    margin-right: 40vh;
-    margin-bottom: 10vh;
-    justify-content: space-between;
-    padding-left: 2vh;
-    padding-right: 2vh;
-}
-
-.heading {
-    text-align: center;
-    font-size: 2.0em;
-}
-
-.foodname {
-    margin-bottom: 1px;
-}
-
-.description {
-    font-size: 0.8em;
-    margin-top: 0px;
 }
 
 h1 {
     text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: 2.2em;
+    color: white;
+    border-bottom: 2px solid black;
+    font-size: 2.5em;
 }
 
-.toppage {
+.event{
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    align-items: baseline;
+}
+
+.name-and-date {
+    font-size: 1.6em;
+    display: inline-block;
+}
+
+.cost-and-prize {
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.event-pic {
+    max-width: 30vw;
+    max-height: 30vw;
+}
+
+.top-page {
     display: flex;
     flex-direction: row;
     
@@ -57,13 +53,17 @@ h1 {
     align-items: center;
 }
 
-#HomeTitle {
+#home-title {
     font-size: 3.0em;
     color: white;
     font-family: Helvetica, sans-serif;
 }
 
-.navbar {
+#bc-icon {
+    margin-left: 15px;
+}
+
+.nav-bar {
     list-style-type: none;
     padding: 10;
     margin: 0;
@@ -73,7 +73,7 @@ h1 {
     justify-content: space-evenly;
   }
   
-.navlink > a {
+.nav-link > a {
     color: white;
     padding: 10px;
     display: inline-block;
@@ -83,6 +83,6 @@ h1 {
     border-left: 3px solid black;
   }
   
-.navlink > a:hover {
+.nav-link > a:hover {
     background-color: rgb(235, 233, 188);
   }
