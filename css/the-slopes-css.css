@@ -21,21 +21,21 @@ h1 {
 
 .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #slope-map {
     max-width: 55vw;
     max-height: 55vw;
     text-align: center;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #slope-images {
     max-width: 40vw;
     max-height: 50vw;
     font-family: Helvetica, sans-serif;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .section-head {

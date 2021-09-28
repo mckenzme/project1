@@ -9,11 +9,16 @@ body {
     flex-direction: column;
 }
 
-#BCicon {
+#home-screen {
+    max-width:100%;
+    min-height:100%;
+}
+
+#bc-icon {
     margin-left: 15px;
 }
 
-.toppage {
+.top-page {
     display: flex;
     flex-direction: row;
     top: 0;
@@ -26,13 +31,13 @@ body {
     align-items: center;
 }
 
-#HomeTitle {
+#home-title {
     font-size: 3.0em;
     color: white;
     font-family: Helvetica, sans-serif;
 }
 
-.navbar {
+.nav-bar {
     list-style-type: none;
     padding: 10;
     margin: 0;
@@ -42,7 +47,7 @@ body {
     justify-content: space-evenly;
   }
   
-.navlink > a {
+.nav-link > a {
     color: white;
     padding: 10px;
     display: inline-block;
@@ -52,6 +57,7 @@ body {
     border-left: 3px solid black;
   }
   
-.navlink > a:hover {
+.nav-link > a:hover {
     background-color: rgb(235, 233, 188);
   }
+  

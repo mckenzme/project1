@@ -17,49 +17,50 @@ h1 {
     flex-direction: column;
 }
 
-.Box1 {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20vh;
-    margin-right: 20vh;
-}
-
-.Box2 {
+.box-1 {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 20vh;
-    margin-right: 20vh;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.Box3 {
+.box-2 {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 20vh;
-    margin-right: 20vh;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.page1image {
-    max-width: 25vw;
-    max-height: 25vw;
-    border: 2px solid black;
+.box-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.resort-image {
+    max-width: 30%;
+    max-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .package {
     padding: 1vh;
     background-color: white;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .text {
     background-color: white;
     padding: 1vh;
-    max-width: 25vw;
-    max-height: 25vw;
+    max-width: 30%;
+    max-height: 100%;
     font-size: 1.3em;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0;
 }
 
-.packagehead {
+.package-head {
     font-size: 1.5em;
     text-align: center;
     border-bottom: 2px solid black;
@@ -69,17 +70,17 @@ h1 {
     font-size: 1.1em;
 }
 
-.sectionhead {
+.section-head {
     font-size: 1.5em;
     text-align: center;
 }
 
 
-#BCicon {
-    margin-left: 15px;
+#bc-icon {
+    margin-left: 1%;
 }
 
-.toppage {
+.top-page {
     display: flex;
     flex-direction: row;
     top: 0;
@@ -92,15 +93,15 @@ h1 {
     align-items: center;
 }
 
-#HomeTitle {
+#home-title {
     font-size: 3.0em;
     color: white;
     font-family: Helvetica, sans-serif;
 }
 
-.navbar {
+.nav-bar {
     list-style-type: none;
-    padding: 10;
+    padding: 10px;
     margin: 0;
   
     display: flex;
@@ -108,7 +109,7 @@ h1 {
     justify-content: space-evenly;
   }
   
-.navlink > a {
+.nav-link > a {
     color: white;
     padding: 10px;
     display: inline-block;
@@ -118,6 +119,6 @@ h1 {
     border-left: 3px solid black;
   }
   
-.navlink > a:hover {
+.nav-link > a:hover {
     background-color: rgb(235, 233, 188);
   }
