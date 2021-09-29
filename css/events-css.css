@@ -86,3 +86,10 @@ h1 {
 .nav-link > a:hover {
     background-color: rgb(235, 233, 188);
   }
+  
+  @media screen and (max-width: 600px) {
+    .events {
+      flex-direction: column;
+      margin-left: 43%;
+    }
+  }

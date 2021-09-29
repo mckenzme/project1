@@ -10,12 +10,12 @@ body {
 }
 
 #home-screen {
-    max-width:100%;
-    min-height:100%;
+    max-width: 100%;
+    min-height: 100%;
 }
 
 #bc-icon {
-    margin-left: 15px;
+    margin-left: 1%;
 }
 
 .top-page {
@@ -39,7 +39,7 @@ body {
 
 .nav-bar {
     list-style-type: none;
-    padding: 10;
+    padding: 10px;
     margin: 0;
   
     display: flex;

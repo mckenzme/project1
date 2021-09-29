@@ -90,3 +90,14 @@ h1 {
 .nav-link > a:hover {
     background-color: rgb(235, 233, 188);
   }
+
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #slope-images {
+        margin: 2%;
+    }
+  }
