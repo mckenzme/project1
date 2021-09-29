@@ -26,7 +26,6 @@ h1 {
 
 #slope-map {
     width: 60%;
-
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -99,7 +98,7 @@ h1 {
 
     #slope-images {
         margin: 2%;
-        max-width: ;
+        width: 60%
     }
 
     .top-page {
@@ -111,8 +110,12 @@ h1 {
     }
 
     .nav-link > a {
-        font-size: 0.9em;
+        font-size: 0.6em;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         height: 60%
-      }
+    }
+
+    #slope-map {
+        width: 80%;
+    }
   }
