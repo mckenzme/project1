@@ -99,5 +99,20 @@ h1 {
 
     #slope-images {
         margin: 2%;
+        flex: 50%
     }
+
+    .top-page {
+        flex-direction: column;
+    }
+
+    #home-title {
+        display: none;
+    }
+
+    .nav-link > a {
+        font-size: 1.0em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 60%
+      }
   }
