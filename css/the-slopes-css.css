@@ -21,19 +21,19 @@ h1 {
 
 .row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #slope-map {
-    max-width: 55vw;
-    max-height: 55vw;
+    width: 60%;
+
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #slope-images {
-    max-width: 40vw;
-    max-height: 50vw;
+    width: 35%;
+    margin: 1%;
     font-family: Helvetica, sans-serif;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -99,7 +99,7 @@ h1 {
 
     #slope-images {
         margin: 2%;
-        flex: 50%
+        max-width: ;
     }
 
     .top-page {
@@ -111,7 +111,7 @@ h1 {
     }
 
     .nav-link > a {
-        font-size: 1.0em;
+        font-size: 0.9em;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         height: 60%
       }
