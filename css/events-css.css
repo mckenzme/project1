@@ -34,7 +34,7 @@ h1 {
 
 .event-pic {
     width: 80%;
-    height: 35%;
+    height: 40%;
     margin-bottom: 10%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -58,7 +58,7 @@ h1 {
     }
     .event-pic {
         width: 90%;
-        max-height: 30%;
+        height: 40%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
 
