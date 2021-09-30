@@ -148,4 +148,10 @@ form {
     .link {
         font-size: 0.6em;
     }
+
+    .social-media {
+        margin-left: 23%;
+        margin-right: 23%;
+        font-size: 0.8em;
+    }
 }
