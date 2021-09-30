@@ -89,7 +89,7 @@ h1 {
     font-family: Garamond, serif;
     color: white;
     margin-bottom: 2%;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-name: slidein;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -97,12 +97,12 @@ h1 {
 
 @keyframes slidein {
     from {
-      margin-left: 70%;
+      margin-left: 78%;
       width: 25%;
     }
   
     to {
-      margin-left: 10%;
+      margin-left: 0%;
       width: 25%;
     }
   }
@@ -165,12 +165,12 @@ h1 {
 
     @keyframes slidein {
         from {
-          margin-left: 60%;
+          margin-left: 62%;
           width: 50%;
         }
       
         to {
-          margin-left: 15%;
+          margin-left: 0%;
           width: 50%;
         }
       }
@@ -234,12 +234,12 @@ h1 {
 
     @keyframes slidein {
         from {
-          margin-left: 45%;
+          margin-left: 47%;
           width: 55%;
         }
       
         to {
-          margin-left: 10%;
+          margin-left: 0%;
           width: 55%;
         }
       }
