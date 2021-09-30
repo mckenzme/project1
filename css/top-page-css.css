@@ -50,12 +50,8 @@
         flex-direction: column;
     }
 
-    #home-title {
-        display: none;
-    }
-
     .nav-link > a {
-        font-size: 0.4em;
+        font-size: 0.45em;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         height: 60%
     }

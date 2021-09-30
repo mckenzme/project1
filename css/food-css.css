@@ -14,12 +14,12 @@ body {
 .menu {
     display: flex;
     background-color: white;
-    margin-left: 40vh;
-    margin-right: 40vh;
-    margin-bottom: 10vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
     justify-content: space-between;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .column {
@@ -46,4 +46,30 @@ h1 {
     color: white;
     border-bottom: 2px solid black;
     font-size: 2.5em;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .heading {
+        margin-bottom: 1%;
+    }
+    
+    .food-name {
+        font-size: 0.9em;
+    }
+
+    #home-title {
+        display: none;
+    }
+
 }

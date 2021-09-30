@@ -122,4 +122,8 @@ h1 {
     .resort-image {
         max-width: 100%;
     }
+
+    #home-title {
+        display: none;
+    }
 }

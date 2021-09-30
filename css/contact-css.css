@@ -90,4 +90,8 @@ h2 {
         margin-right: 15%;
         background-color: whitesmoke;
     }
+
+    #home-title {
+        display: none;
+    }
 }
