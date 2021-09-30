@@ -31,15 +31,18 @@ body {
 .heading {
     text-align: center;
     font-size: 2.0em;
+    font-family: Verdana, Sans-Serif;
 }
 
 .food-name {
     margin-bottom: 1px;
+    font-family: Garamond, serif;
 }
 
 .description {
     font-size: 0.8em;
     margin-top: 0px;
+    font-family: Garamond, serif;
 }
 
 h1 {
@@ -47,6 +50,34 @@ h1 {
     color: white;
     border-bottom: 2px solid black;
     font-size: 2.5em;
+    font-family: Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .heading {
+        margin-bottom: 1%;
+        font-size: 1.5em;
+    }
+    
+    .food-name {
+        font-size: 1.0em;
+    }
+
+    #home-title {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -63,6 +94,7 @@ h1 {
 
     .heading {
         margin-bottom: 1%;
+        font-size: 1.5em;
     }
     
     .food-name {

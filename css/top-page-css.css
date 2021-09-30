@@ -19,7 +19,7 @@
 #home-title {
     font-size: 3.0em;
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 .nav-bar {
@@ -45,6 +45,18 @@
 .nav-link > a:hover {
     background-color: rgb(235, 233, 188);
   }
+
+  @media screen and (max-width: 1024px) {
+    .top-page {
+        flex-direction: column;
+    }
+
+    .nav-link > a {
+        font-size: 1.2em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 60%
+    }
+}
 
   @media screen and (max-width: 480px) {
     .top-page {

@@ -15,10 +15,12 @@ h1 {
     color: white;
     border-bottom: 2px solid black;
     font-size: 2.5em;
+    font-family: Helvetica, sans-serif;
 }
 
 h2 {
     margin-top: 50%;
+    font-family: Verdana, Sans-Serif;
 }
 
 .contact-box {
@@ -39,12 +41,17 @@ h2 {
     margin-right: 20%;
 }
 
+form {
+    font-family: Garamond, serif;
+}
+
 #submit-button {
     background-color: rgb(121, 147, 196);
     width: 100%;
     margin-bottom: 10%;
     border-radius: 5px;
     font-size: 1.2em;
+    font-family: Garamond, serif;
 }
 
 .social-media-icon {
@@ -54,9 +61,56 @@ h2 {
 .link {
     margin-top: 1%;
     margin-bottom: 1%;
+    font-family: Garamond, serif;
+}
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2.0em;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 10%;
+        font-size: 1.8em;
+    }
+    
+    #contact-pic {
+        display: none;
+    }
+
+    .form-box {
+        align-items: center;
+    }
+
+    form {
+        font-size: 1.0em;
+    }
+    .contact-box {
+        display: flex;
+        width: 70%;
+        height: 55%;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: whitesmoke;
+    }
+
+    .social-media {
+        margin-left: 23%;
+        margin-right: 23%;
+        font-size: 1.1em;
+    }
+
+    #submit-button {
+        width: 40%;
+    }
+
+    #home-title {
+        display: none;
+    }
 }
 
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     h1 {
         font-size: 2.0em;
         margin-bottom: 0;
@@ -66,7 +120,6 @@ h2 {
         margin-top: 10%;
     }
     
-
     #contact-pic {
         display: none;
     }
