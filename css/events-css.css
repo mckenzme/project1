@@ -35,7 +35,6 @@ h1 {
 .event-pic {
     width: 80%;
     height: 40%;
-    margin-bottom: 10%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -51,6 +50,7 @@ h1 {
     .events {
       flex-direction: column;
       align-items: center;
+      justify-content: space-evenly;
     }
 
     .column {
