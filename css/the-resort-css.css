@@ -23,6 +23,7 @@ h1 {
     justify-content: space-evenly;
     margin-left: 5%;
     margin-right: 5%;
+    align-self: center;
 }
 
 .box-2 {
@@ -30,6 +31,7 @@ h1 {
     justify-content: space-evenly;
     margin-left: 5%;
     margin-right: 5%;
+    align-self: center;
 }
 
 .box-3 {
@@ -37,6 +39,7 @@ h1 {
     justify-content: space-evenly;
     margin-left: 10%;
     margin-right: 10%;
+    align-self: center;
 }
 
 .resort-image {
@@ -47,6 +50,7 @@ h1 {
 
 .package {
     padding: 1vh;
+    margin-left: 3%;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -79,6 +83,29 @@ h1 {
     text-align: center;
     font-family: Verdana, Sans-Serif;
 }
+
+.buy-now-animation {
+    font-size: 1.5em;
+    font-family: Garamond, serif;
+    color: white;
+    margin-bottom: 2%;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 70%;
+      width: 25%;
+    }
+  
+    to {
+      margin-left: 10%;
+      width: 25%;
+    }
+  }
 
 @media screen and (max-width: 1024px) {
     h1 {
@@ -131,6 +158,22 @@ h1 {
     #home-title {
         display: none;
     }
+
+    .buy-now-animation {
+        font-size: 1.1em;
+    }
+
+    @keyframes slidein {
+        from {
+          margin-left: 60%;
+          width: 50%;
+        }
+      
+        to {
+          margin-left: 15%;
+          width: 50%;
+        }
+      }
 }
 
 @media screen and (max-width: 480px) {
@@ -184,4 +227,20 @@ h1 {
     #home-title {
         display: none;
     }
+
+    .buy-now-animation {
+        font-size: 0.8em;
+    }
+
+    @keyframes slidein {
+        from {
+          margin-left: 45%;
+          width: 55%;
+        }
+      
+        to {
+          margin-left: 10%;
+          width: 55%;
+        }
+      }
 }
