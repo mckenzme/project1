@@ -1,0 +1,24 @@
+peer review (Vivian Stewart)
+
+1) What did you like about this website?
+    I like the colors that you used for the navigation bar and background. They go together very nicely. 
+    I also like the organization of each page and the animation on the “the-resort” page. This site is engaging and easy to navigate.
+    
+2) Describe one significant difference between your own P1 site and this person's. 
+    One significant difference between my P1 and Matt’s P1 is that his pages were better organized and the colors he used drew in the users 
+    attention more than the colors I used. 
+    
+3) Is the code well-structured within files, and well-organized between files and directories?
+	  The code is well-structured in each file and well-organized between files and directories. 
+    All CSS files are in a folder named “css” and all images are in a folder named “images”.
+    
+4) Did you find any other issues? If so, briefly enumerate them.
+	  The only issue I found was on the “Contact us” page. If the window was readjusted the form did not always stay in its box. 
+        a)were semantically appropriate elements selected
+            Yes, semantically appropriate elements were selected. All the names for id’s and classes made sense in the context that they were used in.
+        b) Is the CSS refactored to limit duplication?
+            Yes, there was one CSS sheet that had all the shared style elements that was linked to each document. None duplicated elements were put in separate style sheets. 
+
+5) Do you have any other constructive comments for the author?
+     I really like the website's look and usability. One suggestion would be to change the image on the home page so I can see more of it and 
+     it doesn't move around as much when I change the size of the page. 
